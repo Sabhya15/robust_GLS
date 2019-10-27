@@ -6,6 +6,7 @@ It estimates the "sandwich" variance but for GLS models. Unlike the sandwich est
 Any suggestions are appreciated. Please reach out if you want to discuss the code or if there any issues. The code is relatively new and has only been tested for longitudinal studies. I am still unclear if it will work for clustered data or for non-continuous dependent variable. The code will be updated when those become clear. 
 
 Few Notes:
+- Change your working directory and data 
 - Specify number of subjects(N)
 - number of measurement occurences (n)
 - number of parameters (p)
