@@ -1,4 +1,4 @@
-# applied-analysis
+# Robust Variance GLS
 Robust_Variance_GLS - A function to estimate robust variances for parameters estimated using the GLS function. 
 
 It estimates the "sandwich" variance but for GLS models. Unlike the sandwich estimator it also accounts for covariance accross time. It can be used when the covariance structure is misspecified to make the covariance of the parameters "robust" to covariance misspecification . The code currently works for balanced panels and the code for unbalanced panels is forthcoming. 
